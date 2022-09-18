@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.main-view {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main-inner {
+  margin: 50px 0px 50px 0px;
+}
+
+.main-inner-list {
+  height: 64px;
+}
+
+.main-inner-list:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.main-inner-text {
+  padding: 20px 0px 0px 20px;
+}
+
+.main-box-contents {
+  
+}
+
+.box-inner {
+  width: 30%;
+  height: 200px;
+  background-color: blue;
+  margin-top: 40px;
+}
