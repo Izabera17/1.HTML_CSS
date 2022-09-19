@@ -4,7 +4,6 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
-  color: #6c6b6b;
 }
 
 .main-view {
@@ -21,7 +20,7 @@
 }
 
 .main-inner-list:nth-child(odd) {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #eeeeee;
 }
 
 .main-inner-text {
@@ -36,7 +35,7 @@
 .box-inner {
   width: 30%;
   height: 200px;
-  background-color: #f9e900;
+  background-color: #ffd700;
   margin: 0px 5% 40px 0px;
 }
 
@@ -47,7 +46,7 @@
 .box-inner:nth-child(1),
 .box-inner:nth-child(5),
 .box-inner:nth-child(9) {
-  background-color: orange;
+  background-color: #ff8c00;
 }
 
 .box-inner:nth-child(7),
