@@ -50,6 +50,10 @@ header .heading {
   margin: 0 20px;
 }
 
+main {
+  width: 100%;
+}
+
 .main-visual {
   width: 100%; 
   height: 300px; 
@@ -233,24 +237,20 @@ footer {
   header {
     width: 100%;
   }
-  
-  .social {
-    display: none;
-  }
-  
+
   .nav-list {
     width: 100%;
   }
-  
+
   .nav-list-item {
-    width: 100%; 
+    width: 100%;
     margin: 0 0 10px 0;
   }
-  
-  .blog {
-    width: 100%;
+
+  .social {
+    display: none;
   }
-  
+
   .main-visual-content {
     width: 100%;
   }
@@ -259,7 +259,12 @@ footer {
     width: 100%;
     display: block;
   }
-  
+
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+
   .blog-box {
     padding-left: 2%;
     padding-right: 2%;
