@@ -17,7 +17,7 @@
 .header-inner {
   height: 70px;
   flex-basis: 140px;
-  background-color: pink;
+  background-color: #fbb3ff;
   margin:  0 10px;
 }
 
@@ -32,7 +32,7 @@
 
 .main-inner_1 {
   width: 300px;
-  background-color: green;
+  background-color: #d8ffb6;
 }
 
 .main-inner_2 {
@@ -40,12 +40,12 @@
   flex-wrap: wrap;
   max-width: 700px;
   flex-grow: 1;
-  background-color: lime;
+  background-color: #00b522;
   padding: 20px;
 }
 
 .main-block {
-  background-color: yellow;
+  background-color: #fff75a;
   flex-basis: 200px;
   height: 130px;
   margin: 10px;
@@ -53,16 +53,16 @@
 
 .footer {
   display: flex;
-  width: 100%;
-  background-color: red;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #52a1ff;
   padding: 20px;
 }
 
 .footer-block {
   max-width: 600px;
-  flex-basis: 45%;
+  width: 45%;
   height: 40px;
   background-color: #99ccff;
-  flex-wrap:wrap;
   margin: 10px;
-}
+} 
